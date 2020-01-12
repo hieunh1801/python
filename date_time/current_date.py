@@ -21,5 +21,5 @@ s2 = now.strftime("%d/%m/%Y, %H:%M:%S") # 12/01/2020, 10:15:03. Type: str
 # str => date
 date_str = "18/01/2020" 
 date_format = "%d/%m/%Y"
-date_object = datetime.strptime(date_str, date_format)
+date_object = datetime.strptime(date_str, date_format) # 2020-01-18 00:00:00
 print(date_object)
